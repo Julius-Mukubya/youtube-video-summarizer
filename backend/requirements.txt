@@ -1,0 +1,9 @@
+fastapi>=0.111.0,<1.0.0
+uvicorn>=0.30.0,<1.0.0
+transformers>=4.44.2,<5.0.0
+sentencepiece>=0.2.0,<1.0.0
+youtube-transcript-api>=1.2.4,<2.0.0
+python-dotenv>=1.0.0,<2.0.0
+# CPU-only PyTorch — install separately with the line below, or swap for GPU build.
+# See installation note in README.
+torch>=2.9.0,<3.0.0

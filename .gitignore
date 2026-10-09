@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+
+# Environment variable files — never commit real .env files
+.env
+**/.env
+
+# .env.example files ARE committed (they contain only placeholder values)
+!.env.example
+!**/.env.example
+
+model/
+.cache/
+*.egg-info/
+dist/
+build/
